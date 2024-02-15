@@ -18,13 +18,14 @@
 // else alert("Os números são iguais");
 
 // Exercício 4
-// let idade = prompt("Digite a sua idade");
-// if (isNaN(idade)) {
-//   alert("O valor digitado não é um número");
-// } else {
-//   if (idade <= 18) {
-//     alert("Você é menor de idade");
-//   } else {
-//     alert("Você é maior de idade");
-//   }
-// }
+let idade = Number(prompt("Digite a sua idade"));
+
+if (isNaN(idade)) {
+  alert("O valor digitado não é um número");
+} else {
+  if (idade <= 18) {
+    alert("Você é menor de idade");
+  } else {
+    alert("Você é maior de idade");
+  }
+}
